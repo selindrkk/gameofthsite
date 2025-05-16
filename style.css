@@ -1,0 +1,80 @@
+body {
+  background-image: url('map2.jpeg');
+  background-size: cover;         /* Görseli ekran boyutuna göre ayarlar */
+  background-position: center;    /* Görseli ortalar */
+  background-repeat: no-repeat;   /* Tekrarlanmasını engeller */
+}
+
+/* Yazıyı yukarıda, ortada ve büyük göster */
+h1 {
+  text-align: center;        /* Ortalar */
+  font-size: 6rem;           /* Yazı büyüklüğü */
+  color: rgb(0, 0, 0);              /* Yazı rengi */
+  margin-top: 40px;          /* Yukarıdan boşluk */
+  text-shadow: 2px 2px 5px rgb(255, 157, 0); /* Gölge efekti ile okunabilirlik */
+}
+h2 {
+  text-align: center;        /* Ortalar */
+  font-size: 4rem;           /* Yazı büyüklüğü */
+  color: rgb(0, 0, 0);              /* Yazı rengi */
+  margin-top: 40px;          /* Yukarıdan boşluk */
+  text-shadow: 2px 2px 5px rgb(255, 208, 0); /* Gölge efekti ile okunabilirlik */
+}
+
+
+
+a
+{
+
+     bottom: 20px; /*alttan 20 piksel boşluk */
+     left: 20px; /* yandan 20 piksel boşluk */
+      font-size: 3rem; /* Yazıyı büyütür */
+      font-weight: bold; /* yazıyı kalınlaştırır */
+      color: rgb(255, 255, 255);
+      text-decoration: none; /* altçizgiyi kaldırır */
+      background-color: rgba(15, 12, 12, 0.5); /* arkaplanı yarı saydam yapar */
+      padding: 10px 20px; /* yazının etrafındaki boşluğu ayarlar */
+      border-radius: 10px; /* köşeleri yumuşatır */
+      text-shadow: 1px 1px 3px rgb(0, 0, 0); /* gölge efekti */ 
+}
+
+
+h4 {
+      
+      bottom: 1px; /*alttan 20 piksel boşluk */
+      left: 20px; /* yandan 20 piksel boşluk */
+      font-size: 3rem; /* Yazıyı büyütür */
+      font-weight: bold; /* yazıyı kalınlaştırır */
+      color: rgb(255, 255, 255);
+      text-decoration: none; /* altçizgiyi kaldırır */
+      background-color: rgba(15, 12, 12, 0.5); /* arkaplanı yarı saydam yapar */
+      padding: 10px 20px; /* yazının etrafındaki boşluğu ayarlar */
+      border-radius: 10px; /* köşeleri yumuşatır */
+      text-shadow: 1px 1px 3px rgb(0, 0, 0); /* gölge efekti */ 
+      
+    }
+
+    h3 {
+      
+      text-align: center; 
+      font-size: 3rem; /* Yazıyı büyütür */
+      font-weight: bold; /* yazıyı kalınlaştırır */
+      color: rgb(255, 255, 255);
+      background-color: rgba(20, 20, 20, 0.5); /* arkaplanı yarı saydam yapar */
+      padding: 10px 20px; /* yazının etrafındaki boşluğu ayarlar */
+      border-radius: 10px; /* köşeleri yumuşatır */
+      text-shadow: 1px 1px 3px rgb(0, 0, 0); /* gölge efekti */ 
+      
+    }
+    h6
+    {
+      text-align: center; 
+      font-size: 3rem; /* Yazıyı büyütür */
+      font-weight: bold; /* yazıyı kalınlaştırır */
+      color: rgb(255, 255, 255);
+      background-color: rgba(20, 20, 20, 0.5); /* arkaplanı yarı saydam yapar */
+      padding: 10px 20px; /* yazının etrafındaki boşluğu ayarlar */
+      border-radius: 10px; /* köşeleri yumuşatır */
+      text-shadow: 1px 1px 3px rgb(0, 0, 0); /* gölge efekti */ 
+        
+    }

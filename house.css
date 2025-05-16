@@ -1,0 +1,20 @@
+body {
+background-image: url('taht.jpg');
+color: aliceblue;
+text-shadow: 1px 1px 3px rgb(0, 0, 0); /* gölge efekti */ 
+}
+a {
+      
+      bottom: 20px; /*alttan 20 piksel boşluk */
+      left: 20px; /* yandan 20 piksel boşluk */
+      font-size: 3rem; /* Yazıyı büyütür */
+      font-weight: bold; /* yazıyı kalınlaştırır */
+      color: rgb(255, 255, 255);
+      text-decoration: none; /* altçizgiyi kaldırır */
+      background-color: rgba(15, 12, 12, 0.5); /* arkaplanı yarı saydam yapar */
+      padding: 10px 20px; /* yazının etrafındaki boşluğu ayarlar */
+      border-radius: 10px; /* köşeleri yumuşatır */
+      text-shadow: 1px 1px 3px rgb(0, 0, 0); /* gölge efekti */ 
+      
+    }
+   

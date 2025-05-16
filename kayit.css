@@ -1,0 +1,32 @@
+body {
+  background-image: url('housee.jpg'); /* Dosya adını veya URL'yi buraya koy */
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  color: #000000;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+  
+  
+}
+
+a {
+      
+      bottom: 20px; /*alttan 20 piksel boşluk */
+      left: 20px; /* yandan 20 piksel boşluk */
+      font-size: 3rem; /* Yazıyı büyütür */
+      font-weight: bold; /* yazıyı kalınlaştırır */
+      color: white;
+      text-decoration: none; /* altçizgiyi kaldırır */
+      background-color: rgba(0, 0, 0, 0.5); /* arkaplanı yarı saydam yapar */
+      padding: 10px 20px; /* yazının etrafındaki boşluğu ayarlar */
+      border-radius: 10px; /* köşeleri yumuşatır */
+      text-shadow: 1px 1px 3px rgb(0, 0, 0); /* gölge efekti */ 
+      
+    }
+
+    input[type="submit"]:hover {
+      background-color: #ff0000; /* Butonun üzerine gelindiğinde renk değişir */
+      }
+
+      

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houses</title>
+</head>
+<body>
+     <link rel="stylesheet" href="house.css">
+
+     <a href="Anasayfa.html">AnaSayfa</a>
+
+     
+     <form class="search-container" style="text-align: right;">
+              <input type="text" placeholder="Ara..." class="search-box" name="arama" required>
+              <button type="submit" class="submit">Gönder</button>
+              <script>
+  document.querySelector(".search-container").addEventListener("submit", function(e) {
+    e.preventDefault(); // Sayfanın yenilenmesini engeller
+
+    const aranan = document.querySelector(".search-box").value.toLowerCase();
+    const tumElemanlar = document.querySelectorAll("p, div, span, h1, h2, h3, li");
+
+    let bulundu = false;
+
+    tumElemanlar.forEach(el => {
+      if (el.textContent.toLowerCase().includes(aranan)) {
+        el.scrollIntoView({ behavior: "smooth", block: "center" });
+        bulundu = true;
+      } 
+    });
+
+    if (!bulundu) {
+      alert("Aranan kelime bulunamadı.");
+    }
+  });
+</script>
+            </form>
+            
+            <div class="container" style="text-align: center; ">
+              <img src="dragon2.gif" alt="Dragon" width="8px" style="width: 300px; height: 300px;" >
+            </div>
+            
+
+
+     <div class="container" style="text-align: center; ">
+        <h1>Game Of Thrones Evrenindeki Büyük Haneler</h1> <br><br><br><br>
+        <img src="houseslogo.png" alt="Game Of Thrones Houses" width="8px" style="width: 900px; height: 600px;" ><br><br><br><br>
+
+        
+ <img src="targaryen.jpg" alt="Game Of Thrones Houses" width="8px" style="width: 400px; height: 400px;" >
+ <h1>Targaryen Hanesi</h1>
+ <h3>Targaryen Ailesi, Dragonstone Adası'nda hüküm sürerken, Aegon'un fetihleriyle Westeros'un tamamına hükmetmiştir. Ejderhalara olan bağlılıkları ve Valyria'nın kayıp bilgisiyle tanınan Targaryen'ler, uzun süre egemen olmuşlardır.</h3> 
+<br><br><br><br><br><br><br><br>
+ <img src="lannister.png" alt="Game Of Thrones Houses" width="8px" style="width: 400px; height: 400px;" >
+ <h1>Lannister Hanesi</h1>
+    <h3>Lannister Ailesi, Batı Krallığı'nda Casterly Rock'tan yönetir ve servetleriyle ünlüdür. Ailenin başı Tywin Lannister, Westeros’un en zeki ve acımasız liderlerinden biridir. Lannister'lar, güç ve zenginlik için her türlü ittifak yapmaya hazırdır.</h3>
+<br><br><br><br><br><br><br><br>
+    <img src="baratheon.jpg" alt="Game Of Thrones Houses" width="8px" style="width: 400px; height: 400px;" >
+    <h1>Baratheon Hanesi</h1>
+    <h3>Baratheon Ailesi, Stormlands'tan gelir ve Storm's End kalesinde yaşarlar. Aile, Robert Baratheon'un Demir Taht'ı ele geçirmesiyle Westeros'ta zirveye ulaşmış, ancak daha sonra iç savaşla parçalanmıştır. Baratheon'lar, cesur ve savaşçı bir halktır.</h3>
+<br><br><br><br><br><br><br><br>
+    <img src="stark.jpeg" alt="Game Of Thrones Houses" width="8px" style="width: 400px; height: 400px;" >
+    <h1>Stark Hanesi</h1>
+    <h3>Stark Ailesi Kuzey'in en güçlü ailesidir ve Winterfell'de hüküm sürerler. Kışın sert olduğu topraklarda, onurlarına büyük önem verirler ve Kuzey halkı tarafından saygı görürler. Bu aile, sadakat, cesaret ve adaletle tanınır.</h3>
+<br><br><br><br><br><br><br><br>
+    <img src="greyjoy.png" alt="Game Of Thrones Houses" width="8px" style="width: 400px; height: 400px;" >
+    <h1>Greyjoy Hanesi</h1>
+    <h3>Greyjoy Ailesi, Demir Adalar'dan gelir ve denizci bir halktır. Pyke kalesinde yaşayan bu aile, özellikle deniz korsanlığıyla ünlüdür ve özgürlükçü bir yaşam tarzına sahiptir. Greyjoy'lar, sürekli olarak Westeros'un büyük evlerine karşı bağımsızlıklarını savunmuşlardır.</h3>
+<br><br><br><br><br><br><br><br>
+    <img src="tyrell.jpg" alt="Game Of Thrones Houses" width="8px" style="width: 400px; height: 400px;" >
+    <h1>Tyrell Hanesi</h1>
+    <h3>Tyrell Ailesi, Reach bölgesinde, zengin tarım topraklarına hükmeder. Highgarden kalesi, Tyrell'ların kalbidir ve aile, zenginliği ve stratejik evlilikleriyle tanınır. Tyrell'lar, bazen diplomasiyle bazen de ordularıyla Westeros'un en güçlü ailelerinden biri olmuşlardır.</h3>
+<br><br><br><br><br><br><br><br>
+    <img src="martell.jpg" alt="Game Of Thrones Houses" width="8px" style="width: 400px; height: 400px;" >
+    <h1>Martell Hanesi</h1>
+    <h3>Martell Ailesi, Dorne bölgesinden gelir ve Sunspear'da yaşar. Dorne’un sıcak çöllerine ve güçlü geleneklerine bağlı olan Martell'ler, özgürlükçü, savaşçı ve bağımsız bir zihniyete sahiptirler. Dorne, diğer bölgelerden farklı olarak özgür bir yaşam biçimi benimsemiştir.</h3>
+<br><br><br><br><br><br><br><br>
+    <img src="arryn.jpg" alt="Game Of Thrones Houses" width="8px" style="width: 400px; height: 400px;" >
+    <h1>Arryn Hanesi</h1>
+    <h3>Arryn Ailesi, Vale of Arryn’deki The Eyrie'de hüküm sürer. Yüksek dağlarla çevrili bu bölge, doğal bir savunma sağlar. Arryn'lar, onurlu, soylu bir geçmişe sahip olup, diğer evlerle karşılaştırıldığında daha izolasyona çekilmiş bir yaşam sürmüşlerdir.</h3>
+
+    
+
+</div>
+</body>
+</html>
